@@ -1,7 +1,7 @@
 const User = require("./user");
 
 const getUserById = id => {
-  return User.findById(id);
+  return User.findById(id).exec();
   //exec makes the test fail?
 };
 

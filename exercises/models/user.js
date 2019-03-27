@@ -26,7 +26,7 @@ const userSchema = new mongoose.Schema({
     houseNumber: Number,
     zip: Number,
     city: String,
-    state: String
+    State: String
   }
 });
 
